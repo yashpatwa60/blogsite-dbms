@@ -1,0 +1,130 @@
+/* navbar */
+.bcolor,.bcolor:hover
+{
+    color:orange;
+}
+
+.acolor
+{
+    color: white !important;
+}
+
+.navbar
+{
+    background-color:#24292e;
+    
+}
+.section
+{
+    padding: 30px;
+    height: 110px;
+    background-color: whitesmoke;
+    
+}
+
+@media only screen and (max-width : 768px)
+{
+  .section
+  {
+    height: 200px;
+  }
+}
+
+
+
+/* END : navbar*/
+
+ul.list_header li
+{
+  display: inline-block;
+  padding: 5px;
+}
+ul.list_header li a
+{
+  position: relative;
+  top: 9px;
+  color:black;
+  font-weight: 500 ;
+}
+
+
+/*start: footer*/
+.full_footer
+{
+    background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	  background-blend-mode: normal, multiply;
+    position: relative;
+    bottom: 0px;
+    
+}
+.topfooter p{
+    color: #4b4b4b;
+    
+}
+.topfooter a{
+    color: #4b4b4b;
+    font-weight: 600;
+}
+.topfooter h3{
+   font-weight: 700;
+    font-size: 2.1rem;
+}
+
+.bottomfooter 
+{
+    color: #130f40;
+    font-weight: 600;
+    
+}
+
+
+/* End: footer */
+
+
+/*main content*/
+
+.post-preview > a {
+    color: #212529;
+  }
+  
+  .post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #0085A1;
+  }
+  
+  .post-preview > a > .post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px;
+  }
+  
+  .post-preview > .post-meta {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: #868e96;
+  }
+  
+  .post-preview > .post-meta > a {
+    text-decoration: none;
+    color: #212529;
+  }
+  
+  .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+    text-decoration: underline;
+    color: #0085A1;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .post-preview > a > .post-title {
+      font-size: 36px;
+    }
+  }
+
+/* END: main content */
